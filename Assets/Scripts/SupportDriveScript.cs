@@ -24,7 +24,7 @@ public class SupportDriveScript : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        //HoldWheelsOnGround(frontWheels);
+        HoldWheelsOnGround(frontWheels);
         HoldWheelsOnGround(rearWheels);
     }
     void TurnBackCar()
